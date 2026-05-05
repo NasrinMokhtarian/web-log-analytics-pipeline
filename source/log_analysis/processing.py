@@ -27,10 +27,10 @@ def read_log_file(filepath:Path) -> tuple[Counter,Counter,Counter,List[datetime]
                     )
                 )
                 continue
-            host_counts[parsed["host"]] +=1
-            response_size [parsed["resource"]] += parsed["response_size"]
-            status_code[parsed["status_code"]] +=1
-            timestamps.append(parsed["timestamp"])
+            host_counts[parsed.host] +=1
+            response_size [parsed.resource] += parsed.response_size
+            status_code[parsed.status_code] +=1
+            timestamps.append(parsed.timestamp)
     return host_counts,response_size,status_code,timestamps, malformed_lines
     
 
