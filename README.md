@@ -42,7 +42,7 @@ The pipeline generates the following CSV files:
 - **`hosts.csv`** — top hosts by number of requests
 - **`resources.csv`** — top resources by total bandwidth
 - **`windows.csv`** — busiest rolling 60-minute windows
-- **`malformed_lines.csv`** *(optional)* — rejected rows with line number and reason
+- **`malformed_lines.csv`**  — rejected rows with line number and reason
 
 ## Engineering Focus
 
