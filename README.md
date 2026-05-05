@@ -297,13 +297,5 @@ This project demonstrates:
 - generated CSV outputs are not committed by default
 - empty `data/` and `outputs/` directories are preserved with `.gitkeep`
 
-## AI Usage
-
-AI was used as a support tool during the improvement phase of this project, mainly for:
-
-- discussing engineering trade-offs
-- refining project structure
-- improving validation and testing ideas
-- improving documentation quality
 
 Final implementation decisions were reviewed and understood before inclusion in the project.
